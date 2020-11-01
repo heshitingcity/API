@@ -1,0 +1,46 @@
+[default]
+
+#主机地址
+host =  api.weixin.qq.com
+
+
+#日志存放路径
+logs_path = ../logs/
+
+#日志等级 DEBUG=10  INFO=20  WARNING=30  ERROR=40  CRITICAL=50
+log_level = 20
+
+
+#测试报告路径
+report_path = ../test_reports/
+
+
+#测试用例路径
+test_data_path = ../test_datas/
+
+#yaml存放路径
+yamal_path = ../test_datas/Token.yaml
+
+
+
+[email]
+#收件人
+receiver = 1565854210@qq.com
+
+#发件人
+sender  = 1565854210@qq.com
+
+#抄送人
+SMTP_cs = 1565854210@qq.com
+
+#邮件主题
+SMTP_subject = city自动化测试报告
+
+#邮件路径
+SMTP_attch_path = ../test_reports/
+
+#邮件端口
+SMTP_port = 25
+
+#邮件授权码
+SMTP_code = myvgvhsgudlkjajj
